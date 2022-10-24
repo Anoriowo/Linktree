@@ -1,16 +1,52 @@
 .App {
-  text-align: center;
- 
+  text-align: center; 
+}
+body{
+  background-color: rgba(198, 198, 198, 0.96);
+  margin: 0; 
+}
+.the_body{
+  background-color: #fff;
+  margin: 1.5rem 2rem;
+  border-radius: 10px;
+  height: 50%;
+}
+img{
+  width: 15%;
+  padding-top: 20px;
 }
 a{
   display: block;
+  background-color: rgba(198, 198, 198, 0.96);
+  margin: 0.5rem 5%;
+  padding: 15px 0;
+  color: black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+  border-radius: 10px;
 }
+a:hover{
+  font-size: larger;
+  transition: 1s;
+  font-weight: bold;
+}
+p{
+  opacity: 0.5;
+  padding-bottom: 10px;
+}
+
 #slack{
   display: none;
 }
 
+
 @media screen and (max-width: 500px){
-  svg{display: block;}
+ .the_body{
+  margin: 0.5rem 1rem;
+ }
+ img{
+  width: 5rem;
+ }
 }
 
 

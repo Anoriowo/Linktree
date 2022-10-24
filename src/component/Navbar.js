@@ -9,7 +9,7 @@ const Linktree = () => {
       <h3 id='slack'>Anuoluwapo</h3>
     </div>
     <div className='btns'>
-      <a className='single_btns' href='https://twitter.com/anoriowo' id='' target='blank'>Twitter Link</a>
+      <a className='single_btns' href='https://twitter.com/smiler_mayree' id='' target='blank'>Twitter Link</a>
       <a className='single_btns' href='https://training.zuri.team/' id='btn_zuri' target='blank' >Zuri Team</a>
       <a className='single_btns' href='https://books.zuri.team' id='books' target='blank'>Zuri Books</a>
       <a className='single_btns' href='https://books.zuri.team/python-for-beginners?ref_id=<anuoluwapo>' id='book_python' target='blank'>Python Books</a>
@@ -18,7 +18,8 @@ const Linktree = () => {
     </div>
 
     <hr/>
-    HNG Internship 9 Frontend Task
+    <p>HNG Internship 9 Frontend Task</p>
+    
  </div>
 
   )
